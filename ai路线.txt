@@ -1,0 +1,25 @@
+1. ai绘画 科研方向 
+2.  deeplearning ->    人工美工
+3.    读研   统计 金融  -> 时间序列-> 钱  ——> 数学 
+
+deep learning   1999  bp ->  99 10  机器学习 显卡      12  Alexnet  conv      cv  图像分类 目标检测 语义分割    nlp    gpt-bert gpt2 -18-20 abert robert   gpt3   clip -> 21->23(chatgpt 3.5) chatgpt    (Moss   文心一言)    时间序列 ，实体抽取，关系识别(关系推理)     GNN
+
+知识图谱 (爬虫-> 数据清洗-> 实体抽取（BILSTM lebert）-> 关系识别(人工标注 )-> 存入数据库（neo4j）-> 下游任务 （词向量）->GNN 问答  推荐系统) 
+时间序列 统计 金融   lstm ->conv-> transformer  (时空预测-可解释性------)
+
+GNN  
+17 GCN  18 graphsage GAT      推荐系统  
+
+ai   绘画
+
+ 
+gan  相互拮抗  生成和你输入的图片很像  gan 不能让 画师失业    创造力不强          flow
+
+deeplearning   x -> NN ->   KNN-> 分类    损失 （ 最小二乘    ||+ 正则项 ） 随机梯度 loss->  极值      @    推理阶段 W4W3W2W1.x   
+
+diffusion  model    多次VAE      15paper   20 ->   23     多模态 （文本）  
+
+   VAE->  BVAE->VQVAE-> diffusion model(输入图片->生成图片)->  openai(输入文本 ->生成图片)DALLE（Diffusion）21 2-> DALLE2 22 6->   Stable diffusion  22 8 (web ui) -> 微软 imagen-> ......->   controlnet  23 2      
+
+
+   

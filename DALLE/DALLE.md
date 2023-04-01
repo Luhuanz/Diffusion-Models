@@ -8,7 +8,7 @@ vae
 
 ![img](https://pic1.zhimg.com/80/v2-f37a8f00da3b1edf29643d998f311494_720w.webp)
 
-vq-vae
+## **vq-vae**
 
 dvae和 VQVAE 方法相似，dVAE 的 encoder 是将图像的 patch 映射到 8192 的词表中，**论文中将其分布设为在词表向量上的均匀分类分布，这是一个离散分布，由于不可导的问题，此时不能采用重参数技巧**，DALL・E 使用 **Gumbel Softmax trick 来解决这个问题** (简单来说就是 arg max 不可导，可以用 softmax 来近似代替 max，而 arg softmax 是可导的，后面补一篇 Gumbel Softmax 的文章)。
 
